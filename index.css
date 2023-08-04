@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Porsche Next','Arial Narrow',Arial,'Heiti SC',sans-serif;
+    background-size: cover;
+    width: 100%;
+}
+header{
+    margin-bottom: 5rem;
+    width: 100%;
+    
+    
+}
+.icon{
+
+    position: relative;
+    height: 1.65rem;
+    color: white;
+}
+nav{
+    margin:0;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: white;
+  
+
+}
+
+nav .navMenu{
+    padding-left: 2rem;
+    color:white;
+    font-size: 1rem;
+    background: none;
+    border: none;
+
+}
+
+.banner video{
+   width: 100%;
+   height: 50rem;
+    object-fit: fill;
+    padding: auto; 
+    
+}
+.content{
+
+    font-size: 2rem;
+   font: 'Poppins', sans-serif;
+    right: 15rem; 
+    padding-top: 25%;
+    position:absolute;
+    display: block;
+    bottom: 5rem;
+  
+}
+.content h1{
+
+    color: white;
+    margin: 0;
+    margin-bottom: 1rem;
+   
+}
+.content button{
+    font-size: 1.2.rem;
+    margin:0rem;
+    display: inline;
+        width: 20rem;
+        height: 3rem;
+        background:none;
+        color: white;
+        border: none;
+        border: 0.2rem solid ;
+        
+        
+        
+      
+}
+
+.logo{
+    margin: 0rem 10rem;
+    width: 10rem;
+    padding:0rem 25rem ;
+
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block ;
+    padding:0.5rem ;
+  
+}
+
+.content{
+    margin: 10rem 50rem 0rem 50rem ;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   
+   position:absolute;
+   margin-bottom: 2rem;
+}
+
+.cards{
+    
+    transition: 0.3;
+    padding: 1rem
+   
+
+    
+
+}
+
+
+.cardimg{
+    height: 15rem;
+    width: 23rem;
+    position: relative;
+    border-radius: 1rem;
+    
+    
+    
+}
+
+.cardimg:hover{
+    transform: scale(1.1);
+}
+.cards p{
+    font-size:1rem;
+    position:relative;
+    color: white;
+    top :-50px;
+    right:-16px;
+    font-weight:bold;
+    
+    
+}
+
+.icon2{
+    height: 1rem;
+    padding-left: 1rem;
+    align-items: end;
+}
+
+
+.heading{
+    text-align:center;
+    
+   
+    
+    
+}
+
+.models{
+margin-left: 10rem;
+margin-top: 30rem;
+padding:1rem;
+
+
+}
+
+.row{
+    display: flex;
+   
+    align-items: center;
+
+    margin-bottom: -15rem;
+  
+
+}
+
+.cards2{
+    margin: 2rem;
+    height: 60rem;
+    width: 34rem;
+    position: relative;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+  
+
+}
+
+.modelcar{
+    margin: 2rem;
+    height: 45rem;
+    max-width:100%;
+    width: 100%;
+   display: block;
+   border-radius: 1rem;
+    transition: all 0.3s; 
+    transform: scale(1);
+
+    
+    
+
+}
+
+.modelcar:hover{
+    transform: scale(1.1);
+    
+
+}
+
+.cards2 h5{
+    position:relative;
+    top: -17rem;
+    left:2.3rem;
+    font-size:1.5rem;
+    color: white;
+
+}
+
+.cards2 h6{
+    position: relative;
+    top: -19rem;
+    left: 2.4rem;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.cards2 button{
+    position: relative;
+    top: -20rem;
+    
+    font-size: 1rem;
+   
+    display: block;
+    margin:.5rem 2rem 0.5rem 3rem;
+    padding: 1rem 4rem 1rem 4rem;
+    
+    border-radius: 0.4rem;
+    border: none;
+    
+}
+
+.card2btn1:hover{
+        background-color: black;
+        color: white;
+        transition: .8s;
+}
+
+
+.cardbtn2:hover{
+    
+    background: none;
+    color: white;
+    border: 0.1rem solid white;
+}
+
+.instruct{
+    padding: 2  rem;
+    margin-top: 3rem;
+}
+
+.dealercard{
+    margin-left: 15rem;
+    height: 18rem;
+    width: 70rem;
+    padding: 1rem;
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.526);
+    color: white;
+    position: absolute;
+    border-radius: 0.7rem;
+   
+   
+
+}
+.dealercard h1{
+    position: inherit;
+}
+.dealercard img{
+    position: inherit;
+    height: 99%;
+  margin: 0;
+  padding: 0;
+  
+
+}
+.dealercard p{
+    margin: 5rem;
+   
+}
+
+.dealercard button{
+    margin-top:15rem ;
+    margin-left: 2rem;
+    position: inherit;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.7rem;
+   
+
+}
+
+.dealercard button:hover{
+    background:none;
+    border: none;
+    border: .1rem solid white;
+    color: white;
+}
+
+
+.preowned{
+    margin: 25rem;
+    margin-left: 25rem;
+    height: 18rem;
+    width: 70rem;
+    position: absolute;
+    display: inline-flex;
+}
+
+.preowned img{
+    position:inherit;
+    height: 35rem;
+    padding-left: 22.5rem;
+}
+
+.preowned h1{
+    margin-top: 2rem;
+    position: inherit;
+}
+
+.preowned p{
+    padding-top:1rem;
+    padding-top: 2rem;
+}
+
+
+#zipcode{
+
+    position: relative;
+    text-justify: distribute;
+    font-size: .9rem;
+    display: block;
+    margin: .5rem;
+    padding: .5rem;;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    
+
+
+}
+
